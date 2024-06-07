@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+#logo {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    /* flex-direction is always in row so we dont have to do it because is already in rows */
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: white;
+    /* position: fixed;
+    width: 100vw; */
+}
+
+/* gap works only on flex or grid elemnt so before you introduce column gap, you should display a flex or grid*/
+#nav-links {
+    display: flex;
+    column-gap: 40px;
+}
+
+nav button {
+    background-color: white;
+    padding: 10px 20px;
+    height: fit-content;
+    border-color: #E13F2A;
+    /* border: 2px solid #E13F2A; this is the same as the border-width, border-style and border-color */
+    border-width: 2px;
+    border-style: solid;
+}
