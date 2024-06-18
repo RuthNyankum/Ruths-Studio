@@ -1,9 +1,16 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* *****NAVIGATION BAR***** */
 #logo {
     width: 200px;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 nav {
@@ -22,6 +29,11 @@ nav {
     column-gap: 40px;
 }
 
+#nav-links span:hover {
+    color: #E13F2A;
+    cursor: pointer;
+}
+
 nav button {
     background-color: white;
     padding: 10px 20px;
@@ -30,4 +42,57 @@ nav button {
     /* border: 2px solid #E13F2A; this is the same as the border-width, border-style and border-color */
     border-width: 2px;
     border-style: solid;
+    z-index: 70px;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background-color: #E13F2A;
+    color: white;
+}
+
+/* *****HERO SECTION***** */
+#hero {
+    background-image: url(../assets/images/hero_bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero-overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#hero-head {
+    font-size: 70px;
+    padding-bottom: 20px;
+    /* font-weight: 500; */
+}
+
+.paragraph {
+    font-size: 28px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #E13F2A;
+    color: white;
+    font-size: 18px;
+    /* padding-top: 20px; */
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
