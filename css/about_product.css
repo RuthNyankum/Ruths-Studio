@@ -1,9 +1,57 @@
 /* *****ABOUT***** */
 #about {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 100px;
 }
 
-.about1 {
-    display: flex;
+
+#about-img {
+    height: 600px;
+    width: 400px;
+    position: relative;
+    z-index: -20;
+}
+
+#about-img img {
+    border-top-left-radius: 25%;
+    width: 400px;
+    height: inherit;
+    background-size: cover;
+}
+
+.img-cap {
+    width: 200px;
+    height: 180px;
+    background-color: #E13F2A;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    bottom: -8%;
+    right: -10%;
+}
+
+.about2 {
+    text-align: justify;
+}
+
+#about2-1 {
+    font-size: 45px;
+    font-weight: 200;
+    /* padding: 20px 0; */
+}
+
+#about2-2 {
+    font-size: 22px;
+    font-weight: 300;
+    /* padding: 20px 0 ; */
+}
+
+#about2-3 {
+    font-size: 18px;
 }

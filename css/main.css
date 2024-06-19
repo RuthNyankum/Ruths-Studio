@@ -42,7 +42,7 @@ nav button {
     /* border: 2px solid #E13F2A; this is the same as the border-width, border-style and border-color */
     border-width: 2px;
     border-style: solid;
-    z-index: 70px;
+    z-index: 70;
 }
 
 nav button:hover {
