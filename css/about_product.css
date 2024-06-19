@@ -1,0 +1,9 @@
+/* *****ABOUT***** */
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+.about1 {
+    display: flex;
+}
