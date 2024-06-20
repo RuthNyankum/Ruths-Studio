@@ -1,57 +1,107 @@
 /* *****ABOUT***** */
 #about {
     display: grid;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    padding: 100px;
+    gap: 20px;
+    max-width: 1200px;
+    /* align-items: center; */
+    padding: 40px;
+    margin: 40px auto;
 }
 
 
 #about-img {
-    height: 600px;
-    width: 400px;
+    /* height: 600px;
+    width: 400px; */
     position: relative;
     z-index: -20;
 }
 
 #about-img img {
     border-top-left-radius: 25%;
-    width: 400px;
+    width: 100%;
     height: inherit;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 .img-cap {
-    width: 200px;
+    width: 220px;
     height: 180px;
     background-color: #E13F2A;
     color: white;
     position: absolute;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     text-align: center;
     padding: 15px;
     bottom: -8%;
     right: -10%;
 }
 
+.img-cap span {
+    /* display: block; */
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.img-cap p {
+    margin: 0;
+}
+
 .about2 {
     text-align: justify;
+    margin: 60px 0 60px 60px;
 }
 
 #about2-1 {
-    font-size: 45px;
-    font-weight: 200;
-    /* padding: 20px 0; */
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    /* line-height: 50px; */
+    /* padding: 25px 0; */
 }
 
 #about2-2 {
     font-size: 22px;
+    /* font-style: italic; */
+    margin-bottom: 25px;
     font-weight: 300;
-    /* padding: 20px 0 ; */
+    line-height: 35px;
 }
 
 #about2-3 {
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    line-height: 35px;
+    font-weight: 150;
+}
+
+#about2-4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+
+}
+
+#about2-4 span {
+    /* font-style: italic; */
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#signature {
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+/* *****PRODCTS AND SERVICES***** */
+.products-services {
+    display: flex;
+} 
+
+.grid-container {
+    display: grid;
 }

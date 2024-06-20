@@ -1,65 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruth's Studio</title>
     <!-- link your external css to the html file -->
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/about_product.css">
-</head>
+    <link rel="stylesheet" href="css/about_product.css" />
+  </head>
 
-<body>
+  <body>
     <!-- *****NAVIGATION BAR***** -->
     <nav>
-        <img id="logo" src="./assets/logo/logo-no-background1.png" alt="Logo" />
-        <!-- divs are block element, they take the whole space but span does not take all-->
-        <div id="nav-links">
-            <span>Home</span>
-            <span>About</span>
-            <span>Products</span>
-            <span>Reviews</span>
-            <span>Contact</span>
-        </div>
-        <button>Make an Appointment</button>
+      <img id="logo" src="./assets/logo/logo-no-background1.png" alt="Logo" />
+      <!-- divs are block element, they take the whole space but span does not take all-->
+      <div id="nav-links">
+        <span>Home</span>
+        <span>About</span>
+        <span>Products</span>
+        <span>Reviews</span>
+        <span>Contact</span>
+      </div>
+      <button>Make an Appointment</button>
     </nav>
 
     <section id="hero">
-        <div class="hero-overlay">
-            <h1 id="hero-head">Professionalism and Creativity</h1>
-            <p class="paragraph">highlighting your personal touch</p>
-            <button class="button">Our Page orientation</button>
-        </div>
+      <div class="hero-overlay">
+        <h1 id="hero-head">Professionalism and Creativity</h1>
+        <p class="paragraph">highlighting your personal touch</p>
+        <button class="button">Our Products/Service</button>
+      </div>
     </section>
 
     <section id="about">
-
-        <div id="about-img">
-            <img src="./assets/images/img1.jpg" alt="" />
-            <div class="img-cap">
-                <span>7</span>
-                <p>Years of experience</p>
-            </div>
+      <div id="about-img">
+        <img src="./assets/images/img1.jpg" alt="" />
+        <div class="img-cap">
+          <span>7</span>
+          <p>
+            Years of <br />
+            experience
+          </p>
         </div>
+      </div>
 
-        <div class="about2">
-            <h3 id="about2-1">Why you need a <br />Professional photographer</h3>
-            <h5 id="about2-2">
-                "Our expertise, creativity, and technical skills will significantly
-                enhance the quality and impact of your photographs."
-            </h5>
-            <p id="about2-3">While smartphones and amateur cameras can capture moments adequately. Choosing a photography studio
-                ensures a professional, high-quality, and customized photography experience.</p>
-            <p id="about2-4">Ruths studio<span>SIGNATURE</span></p>
-        </div>
-
+      <div class="about2">
+        <h2 id="about2-1">Why you need a <br />Professional photographer</h2>
+        <h5 id="about2-2">
+          "Our expertise, creativity, and technical skills will significantly
+          enhance the quality and impact of your photographs."
+        </h5>
+        <p id="about2-3">
+          While smartphones and amateur cameras can capture moments adequately.
+          Choosing a photography studio ensures a professional, high-quality,
+          and customized photography experience.
+        </p>
+        <p id="about2-4">Ruth Rain - <span>CEO of Ruths Studio</span></p>
+        <p id="signature">SIGNATURE</p>
+      </div>
     </section>
 
-    <section>Products/Services goes here</section>
+    <section>
+      <div class="products-services">
+
+        <div class="grid-container">
+          <div>
+            <div>
+              <img src="" alt="ICONS" />
+            </div>
+            <div>
+              <h5>Personal Photography</h5>
+              <p>
+                Professional headshots and individual photos. Group photos for
+                families and seniors, including maternity and pet sessions.
+              </p>
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="" alt="ICONS" />
+            </div>
+            <div>
+              <h5>Event Photography</h5>
+              <p>
+                Comprehensive wedding coverage. Photography for business events
+                and personal parties.
+              </p>
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="" alt="ICONS" />
+            </div>
+            <div>
+              <h5>Commercial Photography</h5>
+              <p>
+                High-quality product and food images for marketing. Showcasing
+                properties for listings and promotional materials.
+              </p>
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="" alt="ICONS" />
+            </div>
+            <div>
+              <h5>Creative and Studio Services</h5>
+              <p>
+                Model portfolios, fashion shoots, Fine art, conceptual, sports,
+                and drone photography Photo repair, enhancement, custom prints,
+                and framing. Event photo booths and photography workshops.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4>GETTTTTTT</h4>
+          <p>PARAGRAPH</p>
+          <form class="contact-form">
+              <div class="form-group">
+                  <input type="text" id="name" name="name" placeholder="Name" required>
+                  <input type="email" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                  <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                  <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
     <section>Why/Reason goes here</section>
     <section>Review goes here</section>
     <footer>Footer goes here</footer>
-</body>
-
+  </body>
 </html>
