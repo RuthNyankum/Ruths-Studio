@@ -59,6 +59,14 @@ hr {
    width: 100vw;
 }
 
+#reviews-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    width: 100vw;
+    
+}
+
 #revHr {
     border: 2px solid white;
+    width: 60px;
 }
