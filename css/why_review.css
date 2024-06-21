@@ -1,0 +1,64 @@
+/* *****WHY SECTION***** */
+#why {
+    height: auto;
+    width: auto;
+    /* margin-top: 30px; */
+}
+
+#whyText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#whyText h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #E13F2A;
+    margin-bottom: 25px;
+}
+
+#whyText h5 {
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+#whyText p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 0.01px solid rgb(224, 223, 223);
+    /* opacity: 0.5px; */
+}
+
+#whyImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    margin: 50px;
+}
+
+/* *****REVIEW SECTION***** */
+#reviews {
+   background-image: url(../assets/images/review.png);
+   background-repeat: no-repeat;
+   background-size: cover; 
+   height: 60vh;
+   width: 100vw;
+}
+
+#revHr {
+    border: 2px solid white;
+}

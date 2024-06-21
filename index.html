@@ -7,6 +7,7 @@
     <!-- link your external css to the html file -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/about_product.css" />
+    <link rel="stylesheet" href="css/why_review.css" />
   </head>
 
   <body>
@@ -60,15 +61,19 @@
       </div>
     </section>
 
-    <!-- <section>
-      <div class="products-services">
+    <section class="products-services">
+      <div id="product-header">
+        <h1>HEADER</h1>
+      </div>
 
-        <div class="grid-container">
-          <div>
-            <div>
-              <img src="" alt="ICONS" />
+      <div class="products">
+        <div id="product1">
+          <div id="up">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
             </div>
-            <div>
+
+            <div class="secondUp">
               <h5>Personal Photography</h5>
               <p>
                 Professional headshots and individual photos. Group photos for
@@ -76,12 +81,13 @@
               </p>
             </div>
           </div>
-  
-          <div>
-            <div>
-              <img src="" alt="ICONS" />
+
+          <div class="down">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
             </div>
-            <div>
+
+            <div class="secondUp">
               <h5>Event Photography</h5>
               <p>
                 Comprehensive wedding coverage. Photography for business events
@@ -89,12 +95,15 @@
               </p>
             </div>
           </div>
-  
-          <div>
-            <div>
-              <img src="" alt="ICONS" />
+        </div>
+
+        <div id="product2">
+          <div id="up">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
             </div>
-            <div>
+
+            <div class="secondUp">
               <h5>Commercial Photography</h5>
               <p>
                 High-quality product and food images for marketing. Showcasing
@@ -102,70 +111,95 @@
               </p>
             </div>
           </div>
-  
-          <div>
-            <div>
-              <img src="" alt="ICONS" />
+
+          <div class="down">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
             </div>
-            <div>
+
+            <div class="secondUp">
               <h5>Creative and Studio Services</h5>
               <p>
-                Model portfolios, fashion shoots, Fine art, conceptual, sports,
-                and drone photography Photo repair, enhancement, custom prints,
-                and framing. Event photo booths and photography workshops.
+                Model portfolios, fashion shoots, drone photography.
+                Enhancement, custom prints, and framing. Photography workshops.
               </p>
             </div>
           </div>
         </div>
 
-        <div>
-          <h4>GETTTTTTT</h4>
-          <p>PARAGRAPH</p>
-          <form class="contact-form">
-              <div class="form-group">
-                  <input type="text" id="name" name="name" placeholder="Name" required>
-                  <input type="email" id="email" name="email" placeholder="Email" required>
-              </div>
-              <div class="form-group">
-                  <input type="text" id="subject" name="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group">
-                  <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
-              </div>
-              <button type="submit" class="submit-button">Submit</button>
+        <div id="product3">
+          <h4>Explore our services</h4>
+          <p>Get intouch to know more about the services we offer</p>
+
+          <form class="enquiryForm">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="services"
+                placeholder="Type of services"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
           </form>
         </div>
-
       </div>
-    </section> -->
-
-    <section class="products-services">
-        <div>
-            <h1>HEADER</h1>
-        </div>
-        
-        <div class="products">
-
-            <div id="product1">
-                <div id="up"></div>
-                <div id="down"></div>
-            </div>
-
-            <div id="product2">
-                <div id="up2"></div>
-                <div id="down2"></div>
-            </div>
-
-            <div id="product3">
-                <div id="up3"></div>
-                <div id="down3"></div>
-            </div>
-
-        </div>
     </section>
 
-    <section>Why/Reason goes here</section>
-    <section>Review goes here</section>
+    <section id="why">
+      <div id="whyText">
+        <h3>Why choose us</h3>
+        <h5>
+          entrusting your photography needs to professionals who are dedicated
+          <br />
+          to delivering exceptional results with a personal touch.
+        </h5>
+        <p>
+          We are committed to making your experience enjoyable <br />
+          and your photos unforgettable.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+
+      <hr />
+
+      <div id="whyImage">
+        <div>
+          <img src="./assets/images/brand1png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand2.png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand3.png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand4.png.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div>
+        <hr id="revHr" /> 
+        <h3>What Clients Say</h3>
+      </div>
+    </section>
+
     <footer>Footer goes here</footer>
   </body>
 </html>
