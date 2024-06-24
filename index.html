@@ -1,211 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruth's Studio</title>
+    <!-- link your external css to the html file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about_product.css" />
+    <link rel="stylesheet" href="css/why_review.css" />
+    <link rel="stylesheet" href="css/news_footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ruth's Studio</title>
-  <!-- link your external css to the html file -->
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/about_product.css" />
-  <link rel="stylesheet" href="css/why_review.css" />
-</head>
+  <body>
+    <!-- *****NAVIGATION BAR***** -->
+    <nav>
+      <img
+        class="logo"
+        src="./assets/logo/logo-no-background1.png"
+        alt="Logo"
+      />
+      <!-- divs are block element, they take the whole space but span does not take all-->
+      <div id="nav-links" class="poppins-regular">
+        <span>Home</span>
+        <span>About</span>
+        <span>Products</span>
+        <span>Reviews</span>
+        <span>Contact</span>
+      </div>
+      <button class="poppins-regular">Make an Appointment</button>
+    </nav>
 
-<body>
-  <!-- *****NAVIGATION BAR***** -->
-  <nav>
-    <img id="logo" src="./assets/logo/logo-no-background1.png" alt="Logo" />
-    <!-- divs are block element, they take the whole space but span does not take all-->
-    <div id="nav-links">
-      <span>Home</span>
-      <span>About</span>
-      <span>Products</span>
-      <span>Reviews</span>
-      <span>Contact</span>
-    </div>
-    <button>Make an Appointment</button>
-  </nav>
+    <section id="hero" class="poppins-regular">
+      <div class="hero-overlay">
+        <h1 id="hero-head" class="baskervville-regular-italic">
+          Professionalism and Creativity
+        </h1>
+        <p class="paragraph">highlighting your personal touch</p>
+        <button class="button">Our Products/Service</button>
+      </div>
+    </section>
 
-  <section id="hero">
-    <div class="hero-overlay">
-      <h1 id="hero-head">Professionalism and Creativity</h1>
-      <p class="paragraph">highlighting your personal touch</p>
-      <button class="button">Our Products/Service</button>
-    </div>
-  </section>
+    <section id="about" class="poppins-regular">
+      <div id="about-img">
+        <img src="./assets/images/img1.jpg" alt="" />
+        <div class="img-cap">
+          <span>7</span>
+          <p>Years of experience</p>
+        </div>
+      </div>
 
-  <section id="about">
-    <div id="about-img">
-      <img src="./assets/images/img1.jpg" alt="" />
-      <div class="img-cap">
-        <span>7</span>
-        <p>
-          Years of <br />
-          experience
+      <div class="about2">
+        <h2 id="about2-1" class="baskervville-regular">
+          Why you need a <br />Professional photographer
+        </h2>
+        <h5 id="about2-2">
+          "Our expertise, creativity, and technical skills will significantly
+          enhance the quality and impact of your photographs."
+        </h5>
+        <p id="about2-3">
+          While smartphones and amateur cameras can capture moments adequately.
+          Choosing a photography studio ensures a professional, high-quality,
+          and customized photography experience.
         </p>
+        <p id="about2-4">
+          Ruth Rain -
+          <span class="baskervville-regular-italic">CEO of Ruths Studio</span>
+        </p>
+        <img
+          src="./assets/images/signature.avif"
+          alt="signature"
+          id="signature"
+        />
       </div>
-    </div>
+    </section>
 
-    <div class="about2">
-      <h2 id="about2-1">Why you need a <br />Professional photographer</h2>
-      <h5 id="about2-2">
-        "Our expertise, creativity, and technical skills will significantly
-        enhance the quality and impact of your photographs."
-      </h5>
-      <p id="about2-3">
-        While smartphones and amateur cameras can capture moments adequately.
-        Choosing a photography studio ensures a professional, high-quality,
-        and customized photography experience.
-      </p>
-      <p id="about2-4">Ruth Rain - <span>CEO of Ruths Studio</span></p>
-      <p id="signature">SIGNATURE</p>
-    </div>
-  </section>
-
-  <section class="products-services">
-    <div id="product-header">
-      <h1>Our Products and Services</h1>
-    </div>
-
-    <div class="products">
-      <div id="product1">
-        <div id="up">
-          <div class="icon">
-            <img src="./assets/images/img2.jpg" alt="" />
-          </div>
-
-          <div class="secondUp">
-            <h5>Personal Photography</h5>
-            <p>
-              Professional headshots and individual photos. Group photos for
-              families, including maternity and pet sessions.
-            </p>
-          </div>
-        </div>
-
-        <div class="down">
-          <div class="icon">
-            <img src="./assets/images/img2.jpg" alt="" />
-          </div>
-
-          <div class="secondUp">
-            <h5>Event Photography</h5>
-            <p>
-              Comprehensive wedding coverage. Photography for business events
-              and personal parties.
-            </p>
-          </div>
-        </div>
+    <section class="products-services poppins-regular">
+      <div id="product-header" class="baskervville-regular">
+        <h1>Our Products and Services</h1>
       </div>
 
-      <div id="product2">
-        <div id="up">
-          <div class="icon">
-            <img src="./assets/images/img2.jpg" alt="" />
+      <div class="products">
+        <div id="product1">
+          <div id="up">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
+            </div>
+
+            <div class="secondUp">
+              <h5 class="baskervville-regular">Personal Photography</h5>
+              <p>
+                Professional headshots and individual photos. Group photos for
+                families, including maternity and pet sessions.
+              </p>
+            </div>
           </div>
 
-          <div class="secondUp">
-            <h5>Commercial Photography</h5>
-            <p>
-              High-quality product and food images for marketing. Showcasing
-              properties for listings and promotional materials.
-            </p>
+          <div class="down">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
+            </div>
+
+            <div class="secondUp">
+              <h5 class="baskervville-regular">Event Photography</h5>
+              <p>
+                Comprehensive wedding coverage. Photography for business events
+                and personal parties.
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="down">
-          <div class="icon">
-            <img src="./assets/images/img2.jpg" alt="" />
+        <div id="product2">
+          <div id="up">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
+            </div>
+
+            <div class="secondUp">
+              <h5 class="baskervville-regular">Commercial Photography</h5>
+              <p>
+                High-quality product and food images for marketing. Showcasing
+                properties for listings and promotional materials.
+              </p>
+            </div>
           </div>
 
-          <div class="secondUp">
-            <h5>Creative and Studio Services</h5>
-            <p>
-              Model portfolios, fashion shoots, drone photography.
-              Enhancement, custom prints, and framing. Photography workshops.
-            </p>
+          <div class="down">
+            <div class="icon">
+              <img src="./assets/images/img2.jpg" alt="" />
+            </div>
+
+            <div class="secondUp">
+              <h5 class="baskervville-regular">Creative and Studio Services</h5>
+              <p>
+                Model portfolios, fashion shoots, drone photography.
+                Enhancement, custom prints, and framing. Photography workshops.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div id="product3">
-        <h4>Explore our services</h4>
-        <p>Get intouch to know more about the services we offer</p>
+        <div id="product3">
+          <h4 class="baskervville-regular">Explore our Services</h4>
+          <p>Get intouch to know more about the <br />services we offer</p>
 
-        <form class="enquiryForm">
-          <div class="form-group">
+          <form id="enquiryForm">
             <input type="text" name="name" placeholder="Your Name" required />
-          </div>
-          <div class="form-group">
+
             <input type="text" name="email" placeholder="Email" required />
+
+            <select name="Types of Services" id="category">
+              <option value="text" selected>Types of Services</option>
+              <option value="personal_photography">Personal Photography</option>
+              <option value="commercial_photography">
+                Commercial Photography
+              </option>
+              <option value="event_photography">Event Photography</option>
+              <option value="videography">Videography</option>
+              <option value="creative_studio_services">
+                Creative and Studio Services
+              </option>
+            </select>
+
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Message"
+            ></textarea>
+
+            <!-- <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+              rows="5"
+            ></textarea> -->
+
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="poppins-regular">
+      <div id="whyText">
+        <h3 class="baskervville-regular">Why choose us</h3>
+        <h5>
+          Entrusting your photography needs to professionals who are dedicated
+          <br />
+          to delivering exceptional results with a personal touch.
+        </h5>
+        <p>
+          We are committed to making your experience enjoyable <br />
+          and your photos unforgettable.
+        </p>
+        <button class="button">Learn More</button>
+      </div>
+
+      <hr />
+
+      <div id="whyImage">
+        <div>
+          <img src="./assets/images/brand1png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand2.png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand3.png.webp" alt="" />
+        </div>
+        <div>
+          <img src="./assets/images/brand4.png.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="poppins-regular">
+      <div id="reviews-overlay">
+        <div id="reviewMessage">
+          <h3 class="baskervville-regular">
+            <span id="revHr"></span>
+            What Clients Say
+          </h3>
+          <p id="message">
+            "Ruth's Frame of Mind provides top-quality, creative photography
+            <br />
+            with excellent customer service in a welcoming studio.<br />
+            Highly recommended for capturing unforgettable moments."
+          </p>
+          <div id="messageTag">
+            <span id="messageImg">
+              <img src="./assets/images/henry.png" alt="REVIEW IMAGE" />
+            </span>
+            <div>
+              <p>Nana Yeboah</p>
+              <p class="baskervville-regular-italic">CEO of Amusah Company</p>
+            </div>
           </div>
-          <div class="form-group">
-            <input type="text" name="services" placeholder="Type of services" required />
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="mainContainer">
+        <h2>Explore Our Studio</h2>
+        <p class="p">
+          Bring all your photography and videography needs to Ruth's Frame of
+          Mind,
+          <br />and we'll transform your moments into timeless memories.
+        </p>
+
+        <div class="cards">
+          <div class="cardContent1">
+            <div class="content">
+              <h4>Photography</h4>
+              <h5>Our photographer's are good in capturing moments</h5>
+              <p>
+                Our photographers capture moments with precision and creativity,
+                using lighting, composition, and technical skills to produce
+                visually stunning images to make timeless memory.
+              </p>
+              <a
+                href="https://www.towerviewmedia.com/post/top-trends-videography-2024"
+              >
+                Read More
+              </a>
+            </div>
           </div>
-          <div class="form-group">
-            <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+
+          <div class="cardContent2">
+            <div class="content">
+              <h4>Videography</h4>
+              <h5>Our Videographer's will make your day memorable</h5>
+              <p>
+                Our videographers focuses on recording moving images and
+                integrating sound, often utilizing advanced technology for
+                editing and drone shots for unique perspectives.
+              </p>
+              <a href="https://riverside.fm/blog/videography">Read More</a>
+            </div>
           </div>
-          <button type="submit" class="submit-button">Send Message</button>
-        </form>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="why">
-    <div id="whyText">
-      <h3>Why choose us</h3>
-      <h5>
-        entrusting your photography needs to professionals who are dedicated
-        <br />
-        to delivering exceptional results with a personal touch.
-      </h5>
-      <p>
-        We are committed to making your experience enjoyable <br />
-        and your photos unforgettable.
-      </p>
-      <button class="button">Learn More</button>
-    </div>
-
-    <hr />
-
-    <div id="whyImage">
-      <div>
-        <img src="./assets/images/brand1png.webp" alt="" />
-      </div>
-      <div>
-        <img src="./assets/images/brand2.png.webp" alt="" />
-      </div>
-      <div>
-        <img src="./assets/images/brand3.png.webp" alt="" />
-      </div>
-      <div>
-        <img src="./assets/images/brand4.png.webp" alt="" />
-      </div>
-    </div>
-  </section>
-
-  <section id="reviews">
-    <div id="reviews-overlay">
-      <div>
-        <hr id="revHr" />
-        <h3>What Clients Say</h3>
-      </div>
-      <p>Ruth's Frame of Mind provides top-quality, creative photography with excellent customer service in a welcoming
-        studio. Highly recommended for capturing unforgettable moments.
-      </p>
-      <div>
+    <section id="footerHead" class="poppins-regular">
+      <div id="subItem1">
         <span>
-          <img src="" alt="REVIEW IMAGE">
+          <img src="./assets/images/henry.png" alt="#" />
         </span>
         <div>
-          <p>NAME</p>
-          <p>POSITION</p>
+          <p>Ruth Rain</p>
+          <p class="baskervville-regular-italic">CEO of Ruth's Studio</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <footer>Footer goes here</footer>
-</body>
+      <div id="subItem2">
+        <span>call for more information</span>
+        <a href="">
+          <i class="fa-solid fa-phone"></i>
+          +233 500 610 69
+        </a>
+      </div>
+    </section>
 
+    <footer class="poppins-regular">
+      <img
+        class="footerLogo"
+        src="./assets/logo/logo-no-background1.png"
+        alt="logo"
+      />
+      <p>
+        Bring all your photography and videography needs to Ruth's Frame of
+        Mind, <br />and we'll transform your moments into timeless memories.
+      </p>
+
+      <div id="footerLinks">
+        <span>Home</span>
+        <span>About</span>
+        <span>Products</span>
+        <span>Reviews</span>
+        <span>Contact</span>
+      </div>
+
+      <hr />
+
+      <div>
+        <div id="footerIcons">
+          <div id="footerIcons1">
+            <span>Call Us +233 500 6100 59</span>
+            <span>ruthstudio@gmail.com</span>
+          </div>
+
+          <div id="footerIcons2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+
+          <button>Make An Appointment</button>
+        </div>
+
+        <hr />
+
+        <p id="copyright">
+          Copyright ©2024 All rights reserved | This template is made with
+          <i class="fa-solid fa-heart"></i> by Ruth
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

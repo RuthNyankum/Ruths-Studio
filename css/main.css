@@ -4,12 +4,38 @@
     box-sizing: border-box;
 }
 
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
 /* *****NAVIGATION BAR***** */
-#logo {
+.logo {
     width: 200px;
 }
 
-#logo:hover {
+.logo:hover {
     cursor: pointer;
 }
 
@@ -27,6 +53,7 @@ nav {
 #nav-links {
     display: flex;
     column-gap: 40px;
+    font-weight: 100;
 }
 
 #nav-links span:hover {
@@ -73,7 +100,7 @@ nav button:hover {
 #hero-head {
     font-size: 70px;
     padding-bottom: 20px;
-    /* font-weight: 500; */
+    font-weight: bold;
 }
 
 .paragraph {

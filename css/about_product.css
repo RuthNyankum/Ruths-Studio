@@ -47,6 +47,7 @@
 .img-cap p {
     margin: 0;
     font-size: 22px;
+    line-height: 24px;
 }
 
 .about2 {
@@ -55,14 +56,13 @@
 }
 
 #about2-1 {
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: bold;
     margin-bottom: 35px;
 }
 
 #about2-2 {
     font-size: 22px;
-    /* font-style: italic; */
     margin-bottom: 25px;
     font-weight: 300;
     line-height: 35px;
@@ -83,17 +83,15 @@
 }
 
 #about2-4 span {
-    /* font-style: italic; */
     margin-left: 10px;
     font-size: 16px;
     font-weight: 100;
 }
 
 #signature {
-    font-style: italic;
-    margin-left: 10px;
+    width: 120px;
+    height: 100px;
 }
-
 
 /* *****PRODCTS AND SERVICES***** */
 .products-services {
@@ -109,7 +107,9 @@
 #product-header {
     font-size: 30px;
     font-weight: 200;
+    margin-bottom: 40px;
 }
+
 .products {
     display: flex;
     flex-direction: row;
@@ -126,7 +126,7 @@
 #up {
     background-color: white;
     height: 350px;
-    width: 350px; 
+    width: 450px; 
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
@@ -159,7 +159,7 @@
 
 .secondUp h5 {
     font-size: 22px;
-    font-weight: 350;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -173,7 +173,7 @@
 .down {
     background-color: white;
     height: 350px;
-    width: 350px; 
+    width: 450px; 
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
@@ -190,17 +190,68 @@
 #product3 {
     display: flex;
     flex-direction: column;
-    border-top-right-radius: 40%;
+    border-top-right-radius: 30%;
     background-color: #E13F2A;
     height: 650px;
-    width: 350px;
+    /* width: 350px; */
+    width: 450px;
+    color: white;
+    
 }
 
 /* forms */
-.enquiryForm {
 
+#product3 h4 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 40px 25px 10px 55px;
+    /* padding: 15px 10px; */
+    /* text-align: center; */
 }
 
-.form-group {
-    
+#product3 p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 25px 5px 55px;
+    color: w2ite;
+}
+
+#enquiryForm {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#enquiryForm input,
+#enquiryForm select,
+#enquiryForm textarea {
+    margin: 15px 25px 15px 25px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    width: 80%;
+    /* box-sizing: border-box; */
+    color: #fff;
+}
+
+/* input:focus,
+select:focus,
+textarea:focus {
+  border-color: #fff;
+  outline: none;
+} */
+
+#enquiryForm button {
+    margin: 15px 25px 0 25px;
+    padding: 15px 50px;
+    background-color: #ff6f00;
+    width: 80%;
+    font-size: 16px;
+    color: white;
+}
+
+#enquiryForm button:hover {
+    color: #ff6f00;
+    background-color: white;
+    cursor: pointer;
 }
