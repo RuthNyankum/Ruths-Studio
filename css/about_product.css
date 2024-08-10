@@ -28,7 +28,7 @@
 .img-cap {
     width: 220px;
     height: 180px;
-    background-color: #E13F2A;
+    background-color: #69350e;
     color: white;
     position: absolute;
     /* align-items: center; */
@@ -191,7 +191,7 @@
     display: flex;
     flex-direction: column;
     border-top-right-radius: 30%;
-    background-color: #E13F2A;
+    background-color: #69350e;
     height: 650px;
     /* width: 350px; */
     width: 450px;
@@ -244,10 +244,10 @@ textarea:focus {
 #enquiryForm button {
     margin: 15px 25px 0 25px;
     padding: 15px 50px;
-    background-color: #ff6f00;
+    background-color: white;
     width: 80%;
     font-size: 16px;
-    color: white;
+    color: #69350e;
 }
 
 #enquiryForm button:hover {

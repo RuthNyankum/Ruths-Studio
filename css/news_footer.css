@@ -164,7 +164,7 @@
 
 #subItem2 a {
     padding: 15px 30px;
-    background-color: #E13F2A;
+    background-color: #69350e;
     border-radius: 30px;
     color: white;
     text-decoration: none;
@@ -178,7 +178,7 @@ footer {
     position: absolute;
     height: 80vh;
     width: 100vw;
-    background-color: #ff6f00;
+    background-color: #69350e;
     /* background-color: #f17c7c; */
     margin-top: -50px;
     z-index: -30;
